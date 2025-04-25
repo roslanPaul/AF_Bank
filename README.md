@@ -1,6 +1,4 @@
-Voici une version améliorée, plus fluide et professionnelle de ton document de présentation de projet **Bank Churn Analysis**. J’ai structuré, reformulé et enrichi certains passages pour renforcer la clarté et l’impact.
 
----
 
 # 💳 AF_Bank – **Bank Churn Analysis**
 
