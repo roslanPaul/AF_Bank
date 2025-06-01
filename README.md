@@ -191,7 +191,7 @@ std_prediction = 0.0015
 - 🎓 **Spécialisation** : Finance & Statistiques pour l'Analyse de Données
 - 🔍 **Contributions** : Modélisation prédictive, analyse statistique, finance quantitative
 - 🎯 **Objectif** : Recherche de stage en Data Science
-- 📧 **Contact** : [votre-email@example.com]
+- 📧 **Contact** : [r.nzamba07@example.com]
 - 💼 **LinkedIn** : [votre-profil-linkedin]
 
 ### **Moussa Dosso**
@@ -199,6 +199,7 @@ std_prediction = 0.0015
 - 🔍 **Contributions** : Feature engineering, analyse exploratoire, expertise compliance
 - 🎯 **Objectif** : Recherche de CDI Data Scientist
 - 💼 **Expertise** : AML + Data Science = profil rare et recherché
+- 💼 **LinkedIn** : [votre-profil-linkedin]
 
 ### **Synergie Collaborative**
 L'alliance entre expertise **compliance/AML** et **data science quantitative** apporte une valeur unique pour les institutions financières, combinant innovation technique et conformité réglementaire.
