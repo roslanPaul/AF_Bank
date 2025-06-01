@@ -294,4 +294,3 @@ Merci à tous ceux qui ont contribué à ce projet, directement ou indirectement
 
 **⭐ Si ce projet vous a été utile, n'hésitez pas à lui donner une étoile sur GitHub !**
 
-*Dernière mise à jour : Janvier 2025*
