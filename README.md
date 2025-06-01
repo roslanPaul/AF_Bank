@@ -196,8 +196,8 @@ std_prediction = 0.0015
 
 ### **Moussa Dosso**
 - 🏦 **Fonction** : Analyste AML (Anti-Money Laundering) en CDD
-- 🔍 **Contributions** : Feature engineering, analyse exploratoire, expertise compliance
-- 🎯 **Objectif** : Recherche de CDI Data Scientist
+- 🔍 **Contributions** : Modélisation prédictive, finance quantitative analyse exploratoire, expertise compliance
+- 🎯 **Objectif** : Recherche de CDI Analyste ALM
 - 💼 **Expertise** : AML + Data Science = profil rare et recherché
 - 💼 **LinkedIn** : [https://www.linkedin.com/in/moussa-dosso-2b9362239/]
 
@@ -277,7 +277,7 @@ Les contributions sont les bienvenues ! Pour contribuer :
 
 ### **Opportunités Professionnelles**
 - 🎯 **Stage Analyste Financier** : Contact Roslan Nzamba Nzamba
-- 💼 **CDI Data Scientist** : Contact Moussa Dosso
+- 💼 **CDI Analyste ALM** : Contact Moussa Dosso
 - 🤝 **Collaborations** : Ouverts aux partenariats académiques et industriels
 
 ---
