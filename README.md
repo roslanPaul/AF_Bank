@@ -192,14 +192,14 @@ std_prediction = 0.0015
 - 🔍 **Contributions** : Modélisation prédictive, analyse statistique, finance quantitative
 - 🎯 **Objectif** : Recherche de stage en Data Science
 - 📧 **Contact** : [r.nzamba07@example.com]
-- 💼 **LinkedIn** : [votre-profil-linkedin]
+- 💼 **LinkedIn** : [https://www.linkedin.com/in/roslan-paul-n-89ba6b173/]
 
 ### **Moussa Dosso**
 - 🏦 **Fonction** : Analyste AML (Anti-Money Laundering) en CDD
 - 🔍 **Contributions** : Feature engineering, analyse exploratoire, expertise compliance
 - 🎯 **Objectif** : Recherche de CDI Data Scientist
 - 💼 **Expertise** : AML + Data Science = profil rare et recherché
-- 💼 **LinkedIn** : [votre-profil-linkedin]
+- 💼 **LinkedIn** : [https://www.linkedin.com/in/moussa-dosso-2b9362239/]
 
 ### **Synergie Collaborative**
 L'alliance entre expertise **compliance/AML** et **data science quantitative** apporte une valeur unique pour les institutions financières, combinant innovation technique et conformité réglementaire.
