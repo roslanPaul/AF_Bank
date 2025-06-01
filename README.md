@@ -72,40 +72,7 @@ from tqdm import tqdm
 import joblib
 ```
 
-## 📁 Structure du Projet
 
-```
-├── data/
-│   ├── BankChurners.csv              # Dataset principal
-│   └── BankChurners_preprocessed.csv # Données préprocessées
-├── notebooks/
-│   ├── 01_EDA_Preprocessing.ipynb    # Analyse exploratoire
-│   ├── 02_Statistical_Analysis.ipynb # Tests statistiques & ACP
-│   ├── 03_Clustering.ipynb           # Segmentation K-means & DBSCAN
-│   ├── 04_Modeling.ipynb             # Modélisation prédictive
-│   ├── 05_Monte_Carlo.ipynb          # Validation & robustesse
-│   └── 06_Stock_Analysis.ipynb       # Analyse boursière
-├── src/
-│   ├── preprocessing.py              # Fonctions de préprocessing
-│   ├── modeling.py                   # Classes de modélisation
-│   ├── evaluation.py                 # Métriques & validation
-│   └── visualization.py              # Fonctions de visualisation
-├── models/
-│   ├── xgb_model.pkl                # Modèle XGBoost final
-│   ├── scaler.pkl                   # StandardScaler fitted
-│   └── feature_selector.pkl         # Sélecteur de variables
-├── images/
-│   ├── correlation_heatmap.png      # Matrice de corrélation
-│   ├── roc_curves.png               # Courbes ROC comparatives
-│   ├── feature_importance.png       # Importance des variables
-│   └── stock_performance.png        # Performances boursières
-├── reports/
-│   ├── technical_report.pdf         # Rapport technique complet
-│   └── presentation.pdf             # Support de présentation
-├── requirements.txt                 # Dépendances Python
-├── README.md                        # Documentation principale
-└── LICENSE                         # Licence MIT
-```
 
 ## 🚀 Installation & Utilisation
 
@@ -127,49 +94,6 @@ jupyter notebook notebooks/
 
 # Option 2: Google Colab
 # Uploader les notebooks sur Colab et exécuter
-```
-
-### **4. Utiliser le Modèle Pré-entraîné**
-```python
-import joblib
-import pandas as pd
-from src.preprocessing import BankChurnPreprocessor
-
-# Charger le modèle et preprocessor
-model = joblib.load('models/xgb_model.pkl')
-scaler = joblib.load('models/scaler.pkl')
-preprocessor = BankChurnPreprocessor()
-
-# Prédire sur nouveaux clients
-def predict_churn(client_data):
-    """
-    Prédit la probabilité de churn pour un nouveau client
-    
-    Args:
-        client_data (dict): Données client
-    
-    Returns:
-        float: Probabilité de churn (0-1)
-    """
-    df = pd.DataFrame([client_data])
-    df_processed = preprocessor.preprocess(df)
-    df_scaled = scaler.transform(df_processed)
-    probability = model.predict_proba(df_scaled)[0, 1]
-    return probability
-
-# Exemple d'utilisation
-client_example = {
-    'Customer_Age': 45,
-    'Gender': 'M',
-    'Education_Level': 'Graduate',
-    'Total_Trans_Ct': 35,
-    'Total_Trans_Amt': 2500.0,
-    'Credit_Limit': 5000.0,
-    # ... autres variables
-}
-
-churn_prob = predict_churn(client_example)
-print(f"Probabilité de churn: {churn_prob:.3f}")
 ```
 
 ## 📈 Méthodologie Détaillée
@@ -349,10 +273,6 @@ Les contributions sont les bienvenues ! Pour contribuer :
 - Tests unitaires pour nouvelles fonctionnalités
 
 ## 📞 Contact & Support
-
-### **Questions Techniques**
-- 🐛 **Issues** : [GitHub Issues](https://github.com/votre-username/bank-churn-analysis/issues)
-- 💬 **Discussions** : [GitHub Discussions](https://github.com/votre-username/bank-churn-analysis/discussions)
 
 ### **Opportunités Professionnelles**
 - 🎯 **Stage Analyste Financier** : Contact Roslan Nzamba Nzamba
